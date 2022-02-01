@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+input{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 , h3 , h4 , h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.home{
+	background: url(../logo/h_logo.jpg) no-repeat center;
+	background-size: cover;
+    padding: 20px;
+	width: 200px;
+	height: 412px;
+	margin: 80px auto ;
+}
+
+.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 30%;
+  right: 0;
+  box-shadow: 0 0 25px 0 black;
+ 
+}
+
+.bar li {
+  float: left;
+
+}
+
+.bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.bar li a:hover {
+  background-color: #967d5f;
+}
+
+.login-page{
+  background: url(../logo/h_logo_1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  width: 300px;
+  height: 412px;
+  margin: 80px auto ;
+}
+
+.login-box{
+  background: rgba(255, 255, 255, .3);
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  width: 300px;
+  height: 412px;
+  margin: -22px -22px ;
+}
+.login-box h2{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.login-form label{
+  font-weight: 500;
+  display: block;
+}
+.form-control{
+  height: 30px;
+  width: 96.2%;
+  border: 1px solid #c3bfbf;
+  outline: none;
+  padding: 0px 5px;
+}
+.form-group{
+  margin-bottom: 10px;
+}
+.btn-login{
+  padding: 5px 40px;
+  font-size: 15px;
+  text-transform: capitalize;
+  background: #252a2e;
+  color: white;
+  border: none;
+  transition: 0.3s all ease-in-out;
+}
+.btn-login:hover {
+  background: #4b555f ;
+  cursor: pointer;
+}
+.link ul li{
+  list-style: none;
+  line-height: 25px;
+}
+a{
+  text-decoration: none;
+}
+.link ul li a{
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+.link ul li a:hover{
+  padding-left: 5px;
+}
+.link ul li a{
+  list-style: none;
+}
+.f_logo{
+  background: url(../logo/f_logo.jpg) no-repeat center;
+  background-size: cover;
+  width: 1000px;
+  height: 290px;
+  margin: 80px auto ;
+  padding: 20px;
+
+}
+.f_box{
+  background: rgba(255, 255, 255, .3);
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  width: 570px;
+  height: 320px;
+  margin: 40px 212px ;
+
+}
+
+.f_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 30%;
+  right: 0;
+  box-shadow: 0 0 25px 22px black;
+ 
+}
+.f_bar li {
+  float: left;
+
+}
+
+.f_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.f_bar li a:hover {
+  background-color: #967d5f;
+}
+.f_back{
+  height: 200px;
+  width: 96.2%;
+  border: 0px solid #c3bfbf;
+  outline: none;
+  padding: 0px 5px;
+
+}
+.f_btn{
+  padding: 5px 243px;
+  font-size: 15px;
+  text-transform: capitalize;
+  background: #252a2e;
+  color: white;
+  border: none;
+  transition: 0.3s all ease-in-out;
+  margin: 4px;
+  
+}
+.f_btn:hover {
+  background: #926d59 ;
+  cursor: pointer;
+}
+.boi{
+  margin: 0;
+  padding: 0 380px;
+  font-size: 50px;
+  box-shadow: 0 0 25px 22px black;
+}
+
+
+.con_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 30%;
+  right: 0;
+  box-shadow: 0 0 25px 22px black;
+ 
+}
+.con_bar li {
+  float: left;
+
+}
+
+.con_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+
+}
+
+.con_bar li a:hover {
+  background-color: #967d5f;
+}
+
+.con_bar ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.content-home{
+  background: url(../logo/f_logo.jpg);
+  background-size: auto;
+  padding: 100px 0px;
+  height: 412px;
+}
+
+
+.our-products{
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    padding: 10px 0px 120px 0px;
+}
+
+.our-products .heading h2{
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    padding: 0 380px;
+    box-shadow: 0 0 25px 22px black;
+}
+
+.our-products p{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+ 
+
+
+.table_content th{
+    width: 100%;
+    height: 80px;
+    color: #00b386;
+    text-shadow: 2px 2px 8px #000000;
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.table_content td{
+    width: 200px;
+    background-color: transparent;
+    height: 400px;
+}
+.table_content{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.table_content .table-row{
+    height: 300px;
+}
+
+.table_content img{
+    text-align: center;
+    width: 100%;
+    height: 100%;    
+}
+
+.button {
+  background-color: #009578;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; 
+}
+
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Adobe Caslon Semibold Italic;
+}
+
+.image__description {
+    font-size: 1em;
+    margin-top: 0.25em;
+    font-family: Adobe Caslon Semibold Italic;
+}
